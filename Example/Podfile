@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DYPod_Example', :exclusive => true do
+  pod "DYPod", :path => "../"
+end
+
+target 'DYPod_Tests', :exclusive => true do
+  pod "DYPod", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
