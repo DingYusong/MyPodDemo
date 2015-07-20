@@ -1,0 +1,21 @@
+PODS:
+  - DYPod (0.1.0)
+  - FBSnapshotTestCase (2.0.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.2)
+  - FBSnapshotTestCase/Core (2.0.2)
+  - FBSnapshotTestCase/SwiftSupport (2.0.2):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DYPod (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DYPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DYPod: d5a08f226bb7e33de0af447210241a0f194cb2f9
+  FBSnapshotTestCase: fd500d5b282c4ec60215d26d0b58b0cf271dd0d6
+
+COCOAPODS: 0.37.2

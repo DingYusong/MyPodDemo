@@ -1,0 +1,1253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A5824B97A309F314A88AF1 /* Pods-DYPod_Tests-DYPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690C2B7A17C3A31009AE698B /* Pods-DYPod_Tests-DYPod-dummy.m */; };
+		0A2B56EBD9E283ED72CBA618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE318AF0A7C929FC1479AFC /* Foundation.framework */; };
+		11C105D0D8F7DC9B3D148FB7 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40039D8BBAB89AE60D502D /* FBSnapshotTestController.m */; };
+		14ED271D8D3CE12C6090A131 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE32B5628E8B96C5F677FE3 /* SwiftSupport.swift */; };
+		1BD00A019CF406578FCDE6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE318AF0A7C929FC1479AFC /* Foundation.framework */; };
+		216C4C7C357050FDF3490D99 /* Pods-DYPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D877F21E04907194218634 /* Pods-DYPod_Example-dummy.m */; };
+		25EE2DD52C1DE8C8A1F0666F /* EntityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6316D0747B8C8BA36389E0D4 /* EntityHelper.m */; };
+		2A64F26486D9DA58534F542D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828ADE3E5DFB0D69FAB230EC /* XCTest.framework */; };
+		2EFA6E7706FF3816F790DE96 /* Pods-DYPod_Example-DYPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A157A92448C2565CE767CAC /* Pods-DYPod_Example-DYPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B7DB054AED41913AFD8A13 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EAF578B3F9F4B079B11805 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35665E470379BD04265EB061 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CDEFDB8AA0A4A409B5A16D /* UIImage+Compare.m */; };
+		462B39294886CD6603DBA309 /* Pods-DYPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB454400646860CBCFCFCD3 /* Pods-DYPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EB6081CF42692DF11450E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE318AF0A7C929FC1479AFC /* Foundation.framework */; };
+		66376BA3ABDE744028C1D4F7 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DA6A76C3251627818E98B5 /* FBSnapshotTestCasePlatform.m */; };
+		7A5D914E829C8A0CE6C17A20 /* EntityHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5915B1BB853511C88A6E03 /* EntityHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E4C396FCF0B814457F70DCD /* Pods-DYPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2D35C49BE480A94931E33 /* Pods-DYPod_Tests-dummy.m */; };
+		8943A0F330A28E1B5C742DD1 /* DYPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F001CF0C28E6B99CEF5D96C8 /* DYPod.bundle */; };
+		9EFFFB4752E4203CDDE794C3 /* NSString+DYSFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857183B47DB7B825C776072 /* NSString+DYSFormat.m */; };
+		9FA8D83A3B27A6752C24D505 /* Pods-DYPod_Tests-FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA9259048957988DD17A612 /* Pods-DYPod_Tests-FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA6CF493D0A0BAF080921C5 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B28837BBDEBE70B830CBB4DA /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB5A9C63347127E6EC1A0A7A /* EntityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6316D0747B8C8BA36389E0D4 /* EntityHelper.m */; };
+		AC6628ACDE52A5DAA3197FF6 /* NSString+DYSFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E334802307CCF345DBCCA7B /* NSString+DYSFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9E8B724B4DBD2F5C187983 /* NSString+DYSFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857183B47DB7B825C776072 /* NSString+DYSFormat.m */; };
+		AE6A8FAEF5ACD73F50FADD12 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A8B023148056C36370F789 /* FBSnapshotTestCase.m */; };
+		AF27C301F80EABFFBEFF314D /* DYPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94FC98FC6F009768FD207B9F /* DYPod.bundle */; };
+		B7CD2930C0FBDEEE6B12CA6B /* Pods-DYPod_Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC97860C9A0C76C2156F2E8 /* Pods-DYPod_Tests-FBSnapshotTestCase-dummy.m */; };
+		B9A01BE8C8B6386C3C7C7BCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE318AF0A7C929FC1479AFC /* Foundation.framework */; };
+		C49DE3F16EE8A9283016F4C2 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F1595ADD4029DA3C12ED87 /* UIImage+Diff.m */; };
+		CAA3304D918801AEBF10D774 /* Pods-DYPod_Example-DYPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA322E51482B0677ED11318 /* Pods-DYPod_Example-DYPod-dummy.m */; };
+		CBF13C1234772411CAD07A70 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BBFFFE7A9C492CC93E3456 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D12B5F0FEE1947DDECC85B28 /* Pods-DYPod_Tests-DYPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6AC7BF95E648DB151AA1471 /* Pods-DYPod_Tests-DYPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D25461B2DF9389D0C94FCEEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE318AF0A7C929FC1479AFC /* Foundation.framework */; };
+		D98696EB285AEB926EF51054 /* Pods-DYPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8260575EA42ACE6EFC94EFA /* Pods-DYPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2BD298F93891F76E062292 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0960AC7846D407F7DDAAA9 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0FA7642D5EF208A5279AD23 /* NSString+DYSFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E334802307CCF345DBCCA7B /* NSString+DYSFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBDA9B346B0DC1DF159A086D /* EntityHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5915B1BB853511C88A6E03 /* EntityHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB4855829E06A8C572A51F2 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = D22C847577C75839192BD31C /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52C986F7106EC744B0264B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AF473E9E51DE00DF08EB303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD11E24CBDEC389A1824B4D;
+			remoteInfo = "Pods-DYPod_Tests-FBSnapshotTestCase";
+		};
+		998854DEB699A8BF28E29963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AF473E9E51DE00DF08EB303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525364BEF03FDC0D4206D45E;
+			remoteInfo = "Pods-DYPod_Example-DYPod-DYPod";
+		};
+		9C231B256C5EE734B012FED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AF473E9E51DE00DF08EB303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64621FA71C901CCF0C9F1C4B;
+			remoteInfo = "Pods-DYPod_Tests-DYPod-DYPod";
+		};
+		A958BA9D4008524CCECACDB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AF473E9E51DE00DF08EB303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ECA56E9F11D02AE1B0BA95D;
+			remoteInfo = "Pods-DYPod_Tests-DYPod";
+		};
+		E1D6082BBDF3AD8F950EA370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AF473E9E51DE00DF08EB303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F60599B4167C5E16216CCB0;
+			remoteInfo = "Pods-DYPod_Example-DYPod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008EE5D8EDDDFD5C6CE06417 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D877F21E04907194218634 /* Pods-DYPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYPod_Example-dummy.m"; sourceTree = "<group>"; };
+		0D66F39CA1ED81E9BE6AB2BD /* DYPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E151DEDB6F97A919EDE8912 /* Pods-DYPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYPod_Tests.modulemap"; sourceTree = "<group>"; };
+		10BB78020684BB14DA814E2A /* Pods_DYPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A157A92448C2565CE767CAC /* Pods-DYPod_Example-DYPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYPod_Example-DYPod-umbrella.h"; sourceTree = "<group>"; };
+		24EA23A439919B7285DD78F7 /* Pods-DYPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2B6ADA701BDCB3B7773561EA /* Pods-DYPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYPod_Example-resources.sh"; sourceTree = "<group>"; };
+		2C256D1B94E49C20F3E10BEA /* Pods-DYPod_Tests-DYPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DYPod_Tests-DYPod-prefix.pch"; path = "../Pods-DYPod_Tests-DYPod/Pods-DYPod_Tests-DYPod-prefix.pch"; sourceTree = "<group>"; };
+		2E218055D6F81E4F9FEACC16 /* Pods-DYPod_Example-DYPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYPod_Example-DYPod.xcconfig"; sourceTree = "<group>"; };
+		36AF45DFA413A067C19FDAC3 /* Pods-DYPod_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYPod_Example-environment.h"; sourceTree = "<group>"; };
+		40F30ED7C260316558E54CEA /* Pods-DYPod_Example-DYPod-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYPod_Example-DYPod-Private.xcconfig"; sourceTree = "<group>"; };
+		411E71B6337F7A341B2F210C /* Pods-DYPod_Example-DYPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYPod_Example-DYPod-prefix.pch"; sourceTree = "<group>"; };
+		5233D701295C537F61E658BF /* Pods-DYPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5466F7E86FFB66AA1D1E9687 /* Pods-DYPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		573D74D3C96802A152354992 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B493101E204AFF025C3B0C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC97860C9A0C76C2156F2E8 /* Pods-DYPod_Tests-FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYPod_Tests-FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		5DE2D35C49BE480A94931E33 /* Pods-DYPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		5EB454400646860CBCFCFCD3 /* Pods-DYPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		5FEC7B5247C5BDFFF0E02DDE /* Pods-DYPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYPod_Example.modulemap"; sourceTree = "<group>"; };
+		6316D0747B8C8BA36389E0D4 /* EntityHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EntityHelper.m; sourceTree = "<group>"; };
+		68616A810755EF04D68CB76D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690C2B7A17C3A31009AE698B /* Pods-DYPod_Tests-DYPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-DYPod_Tests-DYPod-dummy.m"; path = "../Pods-DYPod_Tests-DYPod/Pods-DYPod_Tests-DYPod-dummy.m"; sourceTree = "<group>"; };
+		69EAF578B3F9F4B079B11805 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/UIImage+Compare.h"; sourceTree = "<group>"; };
+		6AA322E51482B0677ED11318 /* Pods-DYPod_Example-DYPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYPod_Example-DYPod-dummy.m"; sourceTree = "<group>"; };
+		6AED795A9BE3AF13C86B7EC9 /* Pods-DYPod_Tests-FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYPod_Tests-FBSnapshotTestCase.modulemap"; sourceTree = "<group>"; };
+		73CDEFDB8AA0A4A409B5A16D /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
+		77FEB0A118466547C16AF477 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-DYPod_Tests-DYPod/Info.plist"; sourceTree = "<group>"; };
+		828ADE3E5DFB0D69FAB230EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		83A8B023148056C36370F789 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		85153BAAB20BF902E294DE43 /* Pods_DYPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8857183B47DB7B825C776072 /* NSString+DYSFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DYSFormat.m"; sourceTree = "<group>"; };
+		8BE318AF0A7C929FC1479AFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8CE32B5628E8B96C5F677FE3 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		8E2223F12048C663C2157722 /* Pods-DYPod_Tests-DYPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-DYPod_Tests-DYPod.modulemap"; path = "../Pods-DYPod_Tests-DYPod/Pods-DYPod_Tests-DYPod.modulemap"; sourceTree = "<group>"; };
+		8F5915B1BB853511C88A6E03 /* EntityHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EntityHelper.h; sourceTree = "<group>"; };
+		93621E6602C8D08891E9E2D1 /* Pods-DYPod_Example-DYPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYPod_Example-DYPod.modulemap"; sourceTree = "<group>"; };
+		94FC98FC6F009768FD207B9F /* DYPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F1595ADD4029DA3C12ED87 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/UIImage+Diff.m"; sourceTree = "<group>"; };
+		9B0960AC7846D407F7DDAAA9 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
+		9CCA44A1DDD4F73DEE95BA9C /* Pods-DYPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D9F3DB265037DC9F0DBEF25 /* Pods-DYPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9E334802307CCF345DBCCA7B /* NSString+DYSFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DYSFormat.h"; sourceTree = "<group>"; };
+		9F2664EFFB596448E0D8F5B1 /* DYPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BBFFFE7A9C492CC93E3456 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		A674E9A4F2A3CFD9F3C79B09 /* Pods-DYPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		AA8C5D2C5D77B16F8AEB84C0 /* Pods-DYPod_Tests-DYPod-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYPod_Tests-DYPod-Private.xcconfig"; path = "../Pods-DYPod_Tests-DYPod/Pods-DYPod_Tests-DYPod-Private.xcconfig"; sourceTree = "<group>"; };
+		ABBA98714928AD53026DB015 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28837BBDEBE70B830CBB4DA /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		B7845A19475D7D9B6E7BF2AD /* Pods-DYPod_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYPod_Tests-environment.h"; sourceTree = "<group>"; };
+		B8260575EA42ACE6EFC94EFA /* Pods-DYPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BDF5DDB3007157E10F0EC86A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF40039D8BBAB89AE60D502D /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		C6AC7BF95E648DB151AA1471 /* Pods-DYPod_Tests-DYPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DYPod_Tests-DYPod-umbrella.h"; path = "../Pods-DYPod_Tests-DYPod/Pods-DYPod_Tests-DYPod-umbrella.h"; sourceTree = "<group>"; };
+		D040D19892DDE42605B5D7EB /* Pods-DYPod_Tests-FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYPod_Tests-FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		D22C847577C75839192BD31C /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		D43725BC1FD7AEEDEF38EAF5 /* Pods-DYPod_Tests-DYPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYPod_Tests-DYPod.xcconfig"; path = "../Pods-DYPod_Tests-DYPod/Pods-DYPod_Tests-DYPod.xcconfig"; sourceTree = "<group>"; };
+		DCBC4041C392CAF23AB44E7C /* Pods-DYPod_Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYPod_Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		DFE8C08BF6FBA1493EB759D2 /* Pods-DYPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E0DA6A76C3251627818E98B5 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		EDBC68C723B9463477465EE0 /* Pods-DYPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F001CF0C28E6B99CEF5D96C8 /* DYPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47750E88CFABAC9BD3E5D63 /* Pods-DYPod_Tests-FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYPod_Tests-FBSnapshotTestCase.xcconfig"; sourceTree = "<group>"; };
+		F7148DC1F9B497951FE9EAC2 /* Pods-DYPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F886CA8C73C7C2B7DAFB2696 /* Pods-DYPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA83EC5909E28D60947E94B7 /* Pods-DYPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCA9259048957988DD17A612 /* Pods-DYPod_Tests-FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYPod_Tests-FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C1804C85B3FE6191B681CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EB6081CF42692DF11450E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC6E8F2827D9AF11B54851D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A01BE8C8B6386C3C7C7BCA /* Foundation.framework in Frameworks */,
+				2A64F26486D9DA58534F542D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8CE8D31A3E3EEAEC124652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD00A019CF406578FCDE6D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E74059B7EC6A2908223009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB7FE247962494E8D4AF336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2B56EBD9E283ED72CBA618 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EBF26EC66B2EF6A9A30D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25461B2DF9389D0C94FCEEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E256DD0F162FD8B56B719D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3034CB613EF43AD1135DC002 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8BE318AF0A7C929FC1479AFC /* Foundation.framework */,
+				828ADE3E5DFB0D69FAB230EC /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3758D107E52BA761A16BE972 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				8CE32B5628E8B96C5F677FE3 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		3FD98B9F77E1C32A596049DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B493101E204AFF025C3B0C8 /* Info.plist */,
+				77FEB0A118466547C16AF477 /* Info.plist */,
+				93621E6602C8D08891E9E2D1 /* Pods-DYPod_Example-DYPod.modulemap */,
+				2E218055D6F81E4F9FEACC16 /* Pods-DYPod_Example-DYPod.xcconfig */,
+				40F30ED7C260316558E54CEA /* Pods-DYPod_Example-DYPod-Private.xcconfig */,
+				6AA322E51482B0677ED11318 /* Pods-DYPod_Example-DYPod-dummy.m */,
+				411E71B6337F7A341B2F210C /* Pods-DYPod_Example-DYPod-prefix.pch */,
+				1A157A92448C2565CE767CAC /* Pods-DYPod_Example-DYPod-umbrella.h */,
+				8E2223F12048C663C2157722 /* Pods-DYPod_Tests-DYPod.modulemap */,
+				D43725BC1FD7AEEDEF38EAF5 /* Pods-DYPod_Tests-DYPod.xcconfig */,
+				AA8C5D2C5D77B16F8AEB84C0 /* Pods-DYPod_Tests-DYPod-Private.xcconfig */,
+				690C2B7A17C3A31009AE698B /* Pods-DYPod_Tests-DYPod-dummy.m */,
+				2C256D1B94E49C20F3E10BEA /* Pods-DYPod_Tests-DYPod-prefix.pch */,
+				C6AC7BF95E648DB151AA1471 /* Pods-DYPod_Tests-DYPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DYPod_Example-DYPod";
+			sourceTree = "<group>";
+		};
+		4D16444D8A725DC99E759500 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A4BBFFFE7A9C492CC93E3456 /* FBSnapshotTestCase.h */,
+				83A8B023148056C36370F789 /* FBSnapshotTestCase.m */,
+				B28837BBDEBE70B830CBB4DA /* FBSnapshotTestCasePlatform.h */,
+				E0DA6A76C3251627818E98B5 /* FBSnapshotTestCasePlatform.m */,
+				D22C847577C75839192BD31C /* FBSnapshotTestController.h */,
+				BF40039D8BBAB89AE60D502D /* FBSnapshotTestController.m */,
+				69EAF578B3F9F4B079B11805 /* UIImage+Compare.h */,
+				73CDEFDB8AA0A4A409B5A16D /* UIImage+Compare.m */,
+				9B0960AC7846D407F7DDAAA9 /* UIImage+Diff.h */,
+				96F1595ADD4029DA3C12ED87 /* UIImage+Diff.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7DEFA824729687ADE4C634D9 = {
+			isa = PBXGroup;
+			children = (
+				BDF5DDB3007157E10F0EC86A /* Podfile */,
+				AFD7720B0DA74B58177322B2 /* Development Pods */,
+				F7FB07F4ACF34464D6CC0AE2 /* Frameworks */,
+				B96658B44582D546415997C1 /* Pods */,
+				AED6B49102B874BAC89F424D /* Products */,
+				95C40D8C30E9C854D9A90072 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		852AA83444C7452347DB1BCC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F5915B1BB853511C88A6E03 /* EntityHelper.h */,
+				6316D0747B8C8BA36389E0D4 /* EntityHelper.m */,
+				9E334802307CCF345DBCCA7B /* NSString+DYSFormat.h */,
+				8857183B47DB7B825C776072 /* NSString+DYSFormat.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8B2692D6D9F79884595B7A9C /* DYPod */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE4AA27487BA94B632001D /* Pod */,
+				3FD98B9F77E1C32A596049DC /* Support Files */,
+			);
+			name = DYPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		95C40D8C30E9C854D9A90072 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA02DD6A6AD0EFBEE824AF41 /* Pods-DYPod_Example */,
+				B370724ADFAF374E6210CA6C /* Pods-DYPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AED6B49102B874BAC89F424D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94FC98FC6F009768FD207B9F /* DYPod.bundle */,
+				F001CF0C28E6B99CEF5D96C8 /* DYPod.bundle */,
+				9F2664EFFB596448E0D8F5B1 /* DYPod.framework */,
+				0D66F39CA1ED81E9BE6AB2BD /* DYPod.framework */,
+				008EE5D8EDDDFD5C6CE06417 /* FBSnapshotTestCase.framework */,
+				85153BAAB20BF902E294DE43 /* Pods_DYPod_Example.framework */,
+				10BB78020684BB14DA814E2A /* Pods_DYPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD7720B0DA74B58177322B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B2692D6D9F79884595B7A9C /* DYPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B370724ADFAF374E6210CA6C /* Pods-DYPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				573D74D3C96802A152354992 /* Info.plist */,
+				0E151DEDB6F97A919EDE8912 /* Pods-DYPod_Tests.modulemap */,
+				F7148DC1F9B497951FE9EAC2 /* Pods-DYPod_Tests-acknowledgements.markdown */,
+				9CCA44A1DDD4F73DEE95BA9C /* Pods-DYPod_Tests-acknowledgements.plist */,
+				5DE2D35C49BE480A94931E33 /* Pods-DYPod_Tests-dummy.m */,
+				B7845A19475D7D9B6E7BF2AD /* Pods-DYPod_Tests-environment.h */,
+				DFE8C08BF6FBA1493EB759D2 /* Pods-DYPod_Tests-frameworks.sh */,
+				A674E9A4F2A3CFD9F3C79B09 /* Pods-DYPod_Tests-resources.sh */,
+				B8260575EA42ACE6EFC94EFA /* Pods-DYPod_Tests-umbrella.h */,
+				F886CA8C73C7C2B7DAFB2696 /* Pods-DYPod_Tests.debug.xcconfig */,
+				EDBC68C723B9463477465EE0 /* Pods-DYPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-DYPod_Tests";
+			path = "Target Support Files/Pods-DYPod_Tests";
+			sourceTree = "<group>";
+		};
+		B96658B44582D546415997C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC85081C050A08FDE1246097 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC582F84ACA60888396FFD08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68616A810755EF04D68CB76D /* Info.plist */,
+				6AED795A9BE3AF13C86B7EC9 /* Pods-DYPod_Tests-FBSnapshotTestCase.modulemap */,
+				F47750E88CFABAC9BD3E5D63 /* Pods-DYPod_Tests-FBSnapshotTestCase.xcconfig */,
+				D040D19892DDE42605B5D7EB /* Pods-DYPod_Tests-FBSnapshotTestCase-Private.xcconfig */,
+				5CC97860C9A0C76C2156F2E8 /* Pods-DYPod_Tests-FBSnapshotTestCase-dummy.m */,
+				DCBC4041C392CAF23AB44E7C /* Pods-DYPod_Tests-FBSnapshotTestCase-prefix.pch */,
+				FCA9259048957988DD17A612 /* Pods-DYPod_Tests-FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-DYPod_Tests-FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		CA02DD6A6AD0EFBEE824AF41 /* Pods-DYPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA98714928AD53026DB015 /* Info.plist */,
+				5FEC7B5247C5BDFFF0E02DDE /* Pods-DYPod_Example.modulemap */,
+				FA83EC5909E28D60947E94B7 /* Pods-DYPod_Example-acknowledgements.markdown */,
+				5466F7E86FFB66AA1D1E9687 /* Pods-DYPod_Example-acknowledgements.plist */,
+				08D877F21E04907194218634 /* Pods-DYPod_Example-dummy.m */,
+				36AF45DFA413A067C19FDAC3 /* Pods-DYPod_Example-environment.h */,
+				9D9F3DB265037DC9F0DBEF25 /* Pods-DYPod_Example-frameworks.sh */,
+				2B6ADA701BDCB3B7773561EA /* Pods-DYPod_Example-resources.sh */,
+				5EB454400646860CBCFCFCD3 /* Pods-DYPod_Example-umbrella.h */,
+				24EA23A439919B7285DD78F7 /* Pods-DYPod_Example.debug.xcconfig */,
+				5233D701295C537F61E658BF /* Pods-DYPod_Example.release.xcconfig */,
+			);
+			name = "Pods-DYPod_Example";
+			path = "Target Support Files/Pods-DYPod_Example";
+			sourceTree = "<group>";
+		};
+		EC85081C050A08FDE1246097 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4D16444D8A725DC99E759500 /* Core */,
+				BC582F84ACA60888396FFD08 /* Support Files */,
+				3758D107E52BA761A16BE972 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		F7FB07F4ACF34464D6CC0AE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3034CB613EF43AD1135DC002 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFDE4AA27487BA94B632001D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				852AA83444C7452347DB1BCC /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14FE66B8A40BAD8AFDA66795 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462B39294886CD6603DBA309 /* Pods-DYPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9CF111A4157778DB3D3AA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF13C1234772411CAD07A70 /* FBSnapshotTestCase.h in Headers */,
+				AAA6CF493D0A0BAF080921C5 /* FBSnapshotTestCasePlatform.h in Headers */,
+				FEB4855829E06A8C572A51F2 /* FBSnapshotTestController.h in Headers */,
+				9FA8D83A3B27A6752C24D505 /* Pods-DYPod_Tests-FBSnapshotTestCase-umbrella.h in Headers */,
+				33B7DB054AED41913AFD8A13 /* UIImage+Compare.h in Headers */,
+				DF2BD298F93891F76E062292 /* UIImage+Diff.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FD24F7290E723ED8F3685C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDA9B346B0DC1DF159A086D /* EntityHelper.h in Headers */,
+				E0FA7642D5EF208A5279AD23 /* NSString+DYSFormat.h in Headers */,
+				D12B5F0FEE1947DDECC85B28 /* Pods-DYPod_Tests-DYPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35083C11A23215DEB595B8D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98696EB285AEB926EF51054 /* Pods-DYPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC7F91B856D2190DED8BAE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5D914E829C8A0CE6C17A20 /* EntityHelper.h in Headers */,
+				AC6628ACDE52A5DAA3197FF6 /* NSString+DYSFormat.h in Headers */,
+				2EFA6E7706FF3816F790DE96 /* Pods-DYPod_Example-DYPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2ECA56E9F11D02AE1B0BA95D /* Pods-DYPod_Tests-DYPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B993B0F0E5E58629B621E746 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Tests-DYPod" */;
+			buildPhases = (
+				195E76CA28C27E037E337800 /* Sources */,
+				ADB7FE247962494E8D4AF336 /* Frameworks */,
+				B72D72F408E634BB5F2B7DC2 /* Resources */,
+				23FD24F7290E723ED8F3685C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5E0FEA3B7B3D7FA3EB2681D /* PBXTargetDependency */,
+			);
+			name = "Pods-DYPod_Tests-DYPod";
+			productName = "Pods-DYPod_Tests-DYPod";
+			productReference = 0D66F39CA1ED81E9BE6AB2BD /* DYPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F60599B4167C5E16216CCB0 /* Pods-DYPod_Example-DYPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64719B9CAA91AC13869150B9 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Example-DYPod" */;
+			buildPhases = (
+				CABFCA52DFD6E11C422956D0 /* Sources */,
+				6D8CE8D31A3E3EEAEC124652 /* Frameworks */,
+				A10A75909DDBCEEB3CE966B6 /* Resources */,
+				7BC7F91B856D2190DED8BAE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1B82F57D6D6C2504F6EACC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYPod_Example-DYPod";
+			productName = "Pods-DYPod_Example-DYPod";
+			productReference = 9F2664EFFB596448E0D8F5B1 /* DYPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32F0A55976C735AE1BE66F29 /* Pods-DYPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4F93D5D5DD88C396195611 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Tests" */;
+			buildPhases = (
+				CF784E03FF04FD7E1F7A0196 /* Sources */,
+				B0EBF26EC66B2EF6A9A30D52 /* Frameworks */,
+				35083C11A23215DEB595B8D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F494BF89C8B3A03DF928A98 /* PBXTargetDependency */,
+				6691314FF788F9014F42D1F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYPod_Tests";
+			productName = "Pods-DYPod_Tests";
+			productReference = 10BB78020684BB14DA814E2A /* Pods_DYPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		525364BEF03FDC0D4206D45E /* Pods-DYPod_Example-DYPod-DYPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2F7D957ED65EE1365EAD63 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Example-DYPod-DYPod" */;
+			buildPhases = (
+				6CFFB1329BB8EAA5E3C9F18A /* Sources */,
+				E256DD0F162FD8B56B719D69 /* Frameworks */,
+				1D9A2CE10B7EE0DA3E0D0AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DYPod_Example-DYPod-DYPod";
+			productName = "Pods-DYPod_Example-DYPod-DYPod";
+			productReference = F001CF0C28E6B99CEF5D96C8 /* DYPod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		64621FA71C901CCF0C9F1C4B /* Pods-DYPod_Tests-DYPod-DYPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746A527E7A4237B4E4CC6D54 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Tests-DYPod-DYPod" */;
+			buildPhases = (
+				27B5989CE39E62B092F54630 /* Sources */,
+				A2E74059B7EC6A2908223009 /* Frameworks */,
+				529D8D4C7E023355DCFE92C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DYPod_Tests-DYPod-DYPod";
+			productName = "Pods-DYPod_Tests-DYPod-DYPod";
+			productReference = 94FC98FC6F009768FD207B9F /* DYPod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D5A775FCE05EE2C598D5BF0C /* Pods-DYPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA812FCCFC0B8651A3FDE6E /* Build configuration list for PBXNativeTarget "Pods-DYPod_Example" */;
+			buildPhases = (
+				809252E71EAF9D53D527879B /* Sources */,
+				39C1804C85B3FE6191B681CB /* Frameworks */,
+				14FE66B8A40BAD8AFDA66795 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B6B12CA18A99944DC8326F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYPod_Example";
+			productName = "Pods-DYPod_Example";
+			productReference = 85153BAAB20BF902E294DE43 /* Pods_DYPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCD11E24CBDEC389A1824B4D /* Pods-DYPod_Tests-FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53BF32C5F90FADCA64F3285 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Tests-FBSnapshotTestCase" */;
+			buildPhases = (
+				BD06ED44CB1EA23482D663D7 /* Sources */,
+				4EC6E8F2827D9AF11B54851D /* Frameworks */,
+				1E9CF111A4157778DB3D3AA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DYPod_Tests-FBSnapshotTestCase";
+			productName = "Pods-DYPod_Tests-FBSnapshotTestCase";
+			productReference = 008EE5D8EDDDFD5C6CE06417 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AF473E9E51DE00DF08EB303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 00465ACE6891D9018133F83D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DEFA824729687ADE4C634D9;
+			productRefGroup = AED6B49102B874BAC89F424D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5A775FCE05EE2C598D5BF0C /* Pods-DYPod_Example */,
+				2F60599B4167C5E16216CCB0 /* Pods-DYPod_Example-DYPod */,
+				525364BEF03FDC0D4206D45E /* Pods-DYPod_Example-DYPod-DYPod */,
+				32F0A55976C735AE1BE66F29 /* Pods-DYPod_Tests */,
+				2ECA56E9F11D02AE1B0BA95D /* Pods-DYPod_Tests-DYPod */,
+				64621FA71C901CCF0C9F1C4B /* Pods-DYPod_Tests-DYPod-DYPod */,
+				DCD11E24CBDEC389A1824B4D /* Pods-DYPod_Tests-FBSnapshotTestCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D9A2CE10B7EE0DA3E0D0AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529D8D4C7E023355DCFE92C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10A75909DDBCEEB3CE966B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8943A0F330A28E1B5C742DD1 /* DYPod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72D72F408E634BB5F2B7DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF27C301F80EABFFBEFF314D /* DYPod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195E76CA28C27E037E337800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5A9C63347127E6EC1A0A7A /* EntityHelper.m in Sources */,
+				9EFFFB4752E4203CDDE794C3 /* NSString+DYSFormat.m in Sources */,
+				02A5824B97A309F314A88AF1 /* Pods-DYPod_Tests-DYPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B5989CE39E62B092F54630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFFB1329BB8EAA5E3C9F18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809252E71EAF9D53D527879B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216C4C7C357050FDF3490D99 /* Pods-DYPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD06ED44CB1EA23482D663D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6A8FAEF5ACD73F50FADD12 /* FBSnapshotTestCase.m in Sources */,
+				66376BA3ABDE744028C1D4F7 /* FBSnapshotTestCasePlatform.m in Sources */,
+				11C105D0D8F7DC9B3D148FB7 /* FBSnapshotTestController.m in Sources */,
+				B7CD2930C0FBDEEE6B12CA6B /* Pods-DYPod_Tests-FBSnapshotTestCase-dummy.m in Sources */,
+				14ED271D8D3CE12C6090A131 /* SwiftSupport.swift in Sources */,
+				35665E470379BD04265EB061 /* UIImage+Compare.m in Sources */,
+				C49DE3F16EE8A9283016F4C2 /* UIImage+Diff.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABFCA52DFD6E11C422956D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EE2DD52C1DE8C8A1F0666F /* EntityHelper.m in Sources */,
+				AC9E8B724B4DBD2F5C187983 /* NSString+DYSFormat.m in Sources */,
+				CAA3304D918801AEBF10D774 /* Pods-DYPod_Example-DYPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF784E03FF04FD7E1F7A0196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4C396FCF0B814457F70DCD /* Pods-DYPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B6B12CA18A99944DC8326F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYPod_Example-DYPod";
+			target = 2F60599B4167C5E16216CCB0 /* Pods-DYPod_Example-DYPod */;
+			targetProxy = E1D6082BBDF3AD8F950EA370 /* PBXContainerItemProxy */;
+		};
+		6691314FF788F9014F42D1F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYPod_Tests-FBSnapshotTestCase";
+			target = DCD11E24CBDEC389A1824B4D /* Pods-DYPod_Tests-FBSnapshotTestCase */;
+			targetProxy = 52C986F7106EC744B0264B58 /* PBXContainerItemProxy */;
+		};
+		9F494BF89C8B3A03DF928A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYPod_Tests-DYPod";
+			target = 2ECA56E9F11D02AE1B0BA95D /* Pods-DYPod_Tests-DYPod */;
+			targetProxy = A958BA9D4008524CCECACDB7 /* PBXContainerItemProxy */;
+		};
+		C5E0FEA3B7B3D7FA3EB2681D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYPod_Tests-DYPod-DYPod";
+			target = 64621FA71C901CCF0C9F1C4B /* Pods-DYPod_Tests-DYPod-DYPod */;
+			targetProxy = 9C231B256C5EE734B012FED8 /* PBXContainerItemProxy */;
+		};
+		D1B82F57D6D6C2504F6EACC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYPod_Example-DYPod-DYPod";
+			target = 525364BEF03FDC0D4206D45E /* Pods-DYPod_Example-DYPod-DYPod */;
+			targetProxy = 998854DEB699A8BF28E29963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B13B8A82B6FF74DE8A6F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBC68C723B9463477465EE0 /* Pods-DYPod_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYPod_Tests/Pods-DYPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		162847DFEE00BCEF2E68CC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D040D19892DDE42605B5D7EB /* Pods-DYPod_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYPod_Tests-FBSnapshotTestCase/Pods-DYPod_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYPod_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYPod_Tests-FBSnapshotTestCase/Pods-DYPod_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27D1A2642B04A743C0A86C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F30ED7C260316558E54CEA /* Pods-DYPod_Example-DYPod-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYPod_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		35E1DA408066B0A7C3EC18EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8C5D2C5D77B16F8AEB84C0 /* Pods-DYPod_Tests-DYPod-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYPod_Tests-DYPod/Pods-DYPod_Tests-DYPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYPod_Tests-DYPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYPod_Tests-DYPod/Pods-DYPod_Tests-DYPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DYPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3ACC658E1EF6A5C61B7F99E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F30ED7C260316558E54CEA /* Pods-DYPod_Example-DYPod-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYPod_Example-DYPod/Pods-DYPod_Example-DYPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYPod_Example-DYPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYPod_Example-DYPod/Pods-DYPod_Example-DYPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DYPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D8C5B6C5FD6648CD79136FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DEF4A4FA2361A3194BEF58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F30ED7C260316558E54CEA /* Pods-DYPod_Example-DYPod-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYPod_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		49D695DAC0894E8BA0917CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8C5D2C5D77B16F8AEB84C0 /* Pods-DYPod_Tests-DYPod-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYPod_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5BDFE0F7EF6FF19E24BA14A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		768F6825FCA710A26C1B9060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F886CA8C73C7C2B7DAFB2696 /* Pods-DYPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYPod_Tests/Pods-DYPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EB15726326908DE8A409D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5233D701295C537F61E658BF /* Pods-DYPod_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYPod_Example/Pods-DYPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83647E9558119C055658E67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F30ED7C260316558E54CEA /* Pods-DYPod_Example-DYPod-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYPod_Example-DYPod/Pods-DYPod_Example-DYPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYPod_Example-DYPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYPod_Example-DYPod/Pods-DYPod_Example-DYPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DYPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9761EBB00E67947622FD996D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D040D19892DDE42605B5D7EB /* Pods-DYPod_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYPod_Tests-FBSnapshotTestCase/Pods-DYPod_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYPod_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYPod_Tests-FBSnapshotTestCase/Pods-DYPod_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A2AB242F487AC244AC44FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EA23A439919B7285DD78F7 /* Pods-DYPod_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYPod_Example/Pods-DYPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5F966B2569DCD27919D5D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8C5D2C5D77B16F8AEB84C0 /* Pods-DYPod_Tests-DYPod-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYPod_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D1940ADBA3C7576DF697846F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8C5D2C5D77B16F8AEB84C0 /* Pods-DYPod_Tests-DYPod-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYPod_Tests-DYPod/Pods-DYPod_Tests-DYPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYPod_Tests-DYPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYPod_Tests-DYPod/Pods-DYPod_Tests-DYPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DYPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00465ACE6891D9018133F83D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDFE0F7EF6FF19E24BA14A4 /* Debug */,
+				3D8C5B6C5FD6648CD79136FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64719B9CAA91AC13869150B9 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Example-DYPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACC658E1EF6A5C61B7F99E2 /* Debug */,
+				83647E9558119C055658E67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746A527E7A4237B4E4CC6D54 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Tests-DYPod-DYPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F966B2569DCD27919D5D14 /* Debug */,
+				49D695DAC0894E8BA0917CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4F93D5D5DD88C396195611 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768F6825FCA710A26C1B9060 /* Debug */,
+				08B13B8A82B6FF74DE8A6F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2F7D957ED65EE1365EAD63 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Example-DYPod-DYPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEF4A4FA2361A3194BEF58C /* Debug */,
+				27D1A2642B04A743C0A86C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B993B0F0E5E58629B621E746 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Tests-DYPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E1DA408066B0A7C3EC18EF /* Debug */,
+				D1940ADBA3C7576DF697846F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA812FCCFC0B8651A3FDE6E /* Build configuration list for PBXNativeTarget "Pods-DYPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2AB242F487AC244AC44FE7 /* Debug */,
+				7EB15726326908DE8A409D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53BF32C5F90FADCA64F3285 /* Build configuration list for PBXNativeTarget "Pods-DYPod_Tests-FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162847DFEE00BCEF2E68CC83 /* Debug */,
+				9761EBB00E67947622FD996D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AF473E9E51DE00DF08EB303 /* Project object */;
+}

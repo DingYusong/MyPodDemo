@@ -1,0 +1,6 @@
+framework module DYPod {
+  umbrella header "Pods-DYPod_Example-DYPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
