@@ -9,19 +9,19 @@
 
 Pod::Spec.new do |s|
   s.name             = "DYPod"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of DYPod."
+  s.version          = "0.0.1"
+  s.summary          = "just a test"
   s.description      = <<-DESC
-                       An optional longer description of DYPod
+                       I am Testing
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DYPod"
+  s.homepage         = "https://github.com/DingYusong/MyPodDemo"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "丁玉松" => "dys90@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DYPod.git", :tag => s.version.to_s }
+  s.source           = { :git => "dys@128.199.181.154:DYPod.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
